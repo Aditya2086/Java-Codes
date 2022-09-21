@@ -1,6 +1,3 @@
-// Java program to find the number of days in a month 
-// using a switch statement
-
 import java.util.Scanner;
 
 public class Main {
