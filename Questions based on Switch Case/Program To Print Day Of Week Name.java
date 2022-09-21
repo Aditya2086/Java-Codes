@@ -1,15 +1,18 @@
 import java.util.Scanner;
 
-public class KboatDayOfWeek
+class Main
 {
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter the day number: ");
-        int n = in.nextInt();
+    Scanner sc = new Scanner(System.in);
+        
+    System.out.println("Enter the day number: ");
+    int n = sc.nextInt();
+        
         switch (n) {
             case 1:
             System.out.println("Sunday");
             break;
+                
             case 2:
             System.out.println("Monday");
             break;
