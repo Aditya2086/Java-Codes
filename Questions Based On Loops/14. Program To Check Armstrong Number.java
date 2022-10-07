@@ -6,10 +6,8 @@ public static void main(String[] args)
 {
 int input, temp, remainder, result;
 result = 0;
-System.out.println("Required Packages Have Been Imported");
 Scanner sc = new Scanner(System.in);
-   
-System.out.println("A Reader Object Has Been Defined ");
+
 System.out.println("Enter The Number :- ");
 input = sc.nextInt();
 temp = input;
